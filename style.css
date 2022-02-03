@@ -15,9 +15,9 @@ body {
 }
 
 .card {
-    width: 330px;
+    width: 340px;
     background-color: hsl(216, 50%, 16%);
-    padding: 20px;
+    padding: 25px;
     border-radius: 15px;
 }
 
@@ -35,6 +35,7 @@ body {
     width: 100%;
     height: 100%;
     background-color: hsl(178, 100%, 50%);
+    border-radius: inherit;
     opacity: 0;
     transition: all 1s;
 }
@@ -62,7 +63,8 @@ body {
 }
 
 .card h1 {
-    margin: 15px 0;
+    width: fit-content;
+    margin: 20px 0;
     font-size: 22px;
     font-weight: 600;
     color: hsl(0, 0%, 100%);
@@ -84,7 +86,7 @@ body {
     position: relative;
     display: flex;
     justify-content: space-between;
-    padding: 15px 0;
+    padding: 20px 0;
 }
 
 .card .info::after {
